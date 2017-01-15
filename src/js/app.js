@@ -12,9 +12,9 @@ main.show();
 function get_date() {
 
     console.log("get_data()");
-  ajax({ url: 'https://lenta.ru/parts/currency/partial.json', type: 'json' },
+  ajax({ url: 'http://79.120.40.172:5000/otp-data?command=200', type: 'json' },
   function(data) {
-    console.log('Quote of the day is: ' + data);
+    main.body(data.code);
   }
   );
 }
