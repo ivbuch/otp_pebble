@@ -31,7 +31,7 @@
     ]
   },
   "sdkVersion": "3",
-  "shortName": "Pebble.js",
+  "shortName": "MyApp",
   "targetPlatforms": [
     "basalt"
   ],
